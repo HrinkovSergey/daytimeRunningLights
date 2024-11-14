@@ -1,0 +1,39 @@
+.gradle/
+build/
+.idea/
+out/
+
+/local_scripts/run_docker.bat
+
+FixStorage/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+*.class
+*.log
+*.csv
+
+# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+spring.log.*.gz
+spring.log.*.tmp
+
+**/gradlew
+**/gradlew.bat
+**/gradle
